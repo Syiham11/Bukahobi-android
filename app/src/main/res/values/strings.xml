@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Bukahobi-android</string>
+    <string name="title_activity_upload_foto">UploadFotoActivity</string>
 </resources>
