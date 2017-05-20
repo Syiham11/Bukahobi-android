@@ -10,4 +10,5 @@
     <color name="black_overlay">#66000000</color>
     <color name="textPutih">#FFFFFF</color>
     <color name="textHitam">#212121</color>
+    <color name="backgroundAbu">#dbdbdb</color>
 </resources>

@@ -1,19 +1,16 @@
-package net.ridhoperdana.bukahobi_android;
+package net.ridhoperdana.bukahobi_android.fitur_login;
 
-import android.annotation.SuppressLint;
-import android.graphics.Color;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.RelativeLayout;
+
+import net.ridhoperdana.bukahobi_android.R;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
@@ -51,6 +48,14 @@ public class LoginSplashScreenActivity extends AppCompatActivity {
         ConstraintLayout layout_bl = (ConstraintLayout) dialogView.findViewById(R.id.tombolLoginBukalapak);
         ConstraintLayout layout_google = (ConstraintLayout) dialogView.findViewById(R.id.tombolLoginGoogle);
         ConstraintLayout layout_fb = (ConstraintLayout) dialogView.findViewById(R.id.tombolLoginFacebook);
+
+        layout_bl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent_login_bl = new Intent(LoginSplashScreenActivity.this, LoginActivity.class);
+                startActivity(intent_login_bl);
+            }
+        });
 
 //        dialogBuilder.setCancelable(true);
         AlertDialog show_dialog = dialogBuilder.create();
