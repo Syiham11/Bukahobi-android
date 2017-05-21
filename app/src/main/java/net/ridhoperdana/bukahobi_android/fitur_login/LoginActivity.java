@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import net.ridhoperdana.bukahobi_android.HomeActivity;
+import net.ridhoperdana.bukahobi_android.halaman_home.HomeActivity;
 import net.ridhoperdana.bukahobi_android.R;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;

@@ -1,4 +1,4 @@
-package net.ridhoperdana.bukahobi_android;
+package net.ridhoperdana.bukahobi_android.halaman_home;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
