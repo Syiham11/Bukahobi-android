@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Bukahobi-android</string>
     <string name="title_activity_upload_foto">UploadFotoActivity</string>
+    <string name="title_activity_create_community">CreateCommunityActivity</string>
+    <string name="title_activity_create_thread">CreateThreadActivity</string>
+    <string name="threadCommunityName">Tuliskan Nama Komunitas</string>
+    <string name="community">Community</string>
+    <string name="threadContent">Tuliskan balasan pertama</string>
+    <string name="tags">#Tags</string>
 </resources>
