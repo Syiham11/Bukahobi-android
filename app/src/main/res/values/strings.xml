@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Bukahobi-android</string>
     <string name="title_activity_upload_foto">UploadFotoActivity</string>
+    <string name="CommunityName">Tuliskan Nama Komunitas</string>
+    <string name="tagsCommunity">isi dengan tag yang sesuai dipisahkan koma</string>
+    <string name="communityContent">Tuliskan deskripsi dari komunitas ini</string>
 </resources>
