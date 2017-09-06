@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundAbu"
-    tools:context="net.ridhoperdana.bukahobi_android.fitur_login.LoginSplashScreenActivity">
+    tools:context="net.ridhoperdana.bukahobi_android.halaman_login.LoginSplashScreenActivity">
 
     <ImageView
         android:id="@+id/imageView"
